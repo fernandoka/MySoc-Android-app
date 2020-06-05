@@ -8,4 +8,4 @@ This app is divided in three diferents windows: Connection, File transfer, Keybo
 
  -> File Transfer: This window allow the user to upload a MIDI file to the digital piano, only if the user have already established a                        bluethooth connection with It. The user can also define the maximun number of tracks for the next MIDI file to be                          uploaded. 
 
- -> Keyboard: This window show an octave of a piano, allowing the user to play these notes using the digital piano. To play these notes,                 the android device must be connected with the digital piano. You can change the current ocatve between all the others that                 form a piano keybaord.
+ -> Keyboard: This window show an octave of a piano, allowing the user to play these notes using the digital piano. To play these notes,                 the android device must be connected with the digital piano. You can change the current ocatve between all the others that                 form a piano keybaord. At the same time, this windows include a combo-box to define the intensity of these notes. 
