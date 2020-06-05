@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity implements
     /**************************************************************************************************************************/
 
 
-    // Register this instance like listener of OnBlConnectionListener and OnKeyboardListener
+    // Register this instance like listener of OnBlConnectionListener, OnKeyboardListener and OnMidiInteractionListener
     @Override
     public  void onAttachFragment(Fragment fragment){
         if(fragment instanceof BlConnectionFragment)
