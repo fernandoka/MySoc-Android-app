@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/connection_status"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <ImageButton
+            android:id="@+id/pickFile"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/ic_selectmidifile_color"
+            android:text="@string/select_midi_file" />
+
+        <TextView
+            android:id="@+id/TitleZero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/max_of_allowed_trakcs"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+
+        <EditText
+            android:id="@+id/maxAllowedTracks"
+            android:layout_width="177dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TitleZero"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:digits="0123456789"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="@color/colorPrimary" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <ImageButton
+            android:id="@+id/sendData"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/ic_sendfile_color" />
+
+
+        <TextView
+            android:id="@+id/textSendfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/sendData"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/send_file"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <ImageButton
+            android:id="@+id/onOffSong"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/ic_songon_color" />
+
+        <TextView
+            android:id="@+id/textOnOffSong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/onOffSong"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/onOffSong"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <ImageButton
+            android:id="@+id/reverbOnOff"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/ic_reverb_color" />
+
+
+        <TextView
+            android:id="@+id/textReverbOnOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/reverbOnOff"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/reverbOnOff"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

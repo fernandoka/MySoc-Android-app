@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/connection_status"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <ImageButton
+            android:id="@+id/showPairedDev"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/ic_showpaireddevices_color" />
+
+        <TextView
+            android:id="@+id/textShowPairedDev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/showPairedDev"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/show_paired_devices"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <ImageButton
+            android:id="@+id/disconnet"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/ic_discconection_2_color" />
+
+        <TextView
+            android:id="@+id/textDisconnet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/disconnet"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/disconnect"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/listPairedDevs"
+        android:layout_width="409dp"
+        android:layout_height="485dp"
+        android:layout_below="@id/disconnet"
+        android:layout_margin="20dp"
+        />
+
+</LinearLayout>

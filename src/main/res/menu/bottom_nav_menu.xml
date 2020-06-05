@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_bl_connection"
+        android:icon="@drawable/ic_bluetooth_connected_black_24dp"
+        android:title="@string/title_bl_connection" />
+
+
+    <item
+        android:id="@+id/navigation_midi_interaction"
+        android:icon="@drawable/ic_filetransfericon"
+        android:title="@string/title_midi_intereaction" />
+
+
+    <item
+        android:id="@+id/navigation_keyboard"
+        android:icon="@drawable/ic_octava4"
+        android:title="@string/title_keyboard" />
+
+
+</menu>
