@@ -18,5 +18,5 @@ provides both the installable apk and the Android Studio project which had been 
 ## Screenshots
 
 
-
+![alt text](https://github.com/fernandoka/MySoc-Android-app/blob/master/screenshots/Connection_2.png)
 
