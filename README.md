@@ -17,8 +17,8 @@ provides both the installable apk and the Android Studio project which had been 
 
 ## Screenshots
 
-<p>
-  <img src="https://github.com/fernandoka/MySoc-Android-app/blob/master/screenshots/Connection_2.png" width="200" height="400" title="Connection Window">
-  <img src="https://github.com/fernandoka/MySoc-Android-app/blob/master/screenshots/FileTransfer_1.png" width="200" height="400" title="File Transfer Window">
-  <img src="https://github.com/fernandoka/MySoc-Android-app/blob/master/screenshots/Keyboard_2.png" width="200" height="400" title="File Transfer Window">
+<p aling="center">
+  <img src="https://github.com/fernandoka/MySoc-Android-app/blob/master/screenshots/Connection_2.png" width="300" height="400" title="Connection Window">
+  <img src="https://github.com/fernandoka/MySoc-Android-app/blob/master/screenshots/FileTransfer_1.png" width="300" height="400" title="File Transfer Window">
+  <img src="https://github.com/fernandoka/MySoc-Android-app/blob/master/screenshots/Keyboard_2.png" width="300" height="400" title="File Transfer Window">
 </p>
