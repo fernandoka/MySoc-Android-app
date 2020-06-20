@@ -4,7 +4,7 @@ MySoc Android app
 This respository contains the source code from an androdid app which take part in the development of my final university project, providing an external GUI interface to comunicate with the digital piano (implemented in a FPGA as System On Chip). This communication is done using bluethooth.
 
 
-This app is divided in three diferents windows: Connection, File transfer, Keyboard. You can acces each of this windows using the navigation menu located at the bottom of the device screen. The source code located in src/main/...
+This app is divided in three diferents windows: Connection, File transfer and Keyboard. You can acces each of this windows using the navigation menu located at the bottom of the device screen. The source code located in src/main/...
 
  - **Connection**: This window allow the user to establish a bluethooth connection with the digital piano. The user can also disconnect                       from the device using this window.
 
