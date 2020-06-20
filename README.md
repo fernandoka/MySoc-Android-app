@@ -1,7 +1,8 @@
 MySoc Android app
 ==============
 
-This respository contains the source code from an androdid app which take part in the development of my final university project, providing an external GUI interface to comunicate with the digital piano (implemented in a FPGA as System On Chip). This communication is done using bluethooth.
+This respository contains the source code from an android app MySoc which take part in the development of my final university project while I was coursing my last year in Computer Engineering. This app provide an external GUI interface to comunicate with a digital piano (implemented in a FPGA as a MIDI hardware interpreter). This communication is done using bluethooth.
+Link to the digital piano project: https://github.com/fernandoka/Digital-Piano-VHDL-MIDI-Player
 
 
 This app is divided in three diferents windows: Connection, File transfer and Keyboard. You can acces each of this windows using the navigation menu located at the bottom of the device screen. The source code located in src/main/...
