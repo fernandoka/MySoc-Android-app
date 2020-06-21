@@ -27,4 +27,4 @@ provides both the installable apk and the Android Studio project which had been 
 
 ## Additional Notes
 
-This app has been developed to run in a BQ Aquaris V. Because of It, this app is not fully compatible with all types of screens. It might appear mail functionality or the visual elements are not correctly located on the screen.
+This app has been developed to run in a BQ Aquaris V. Because of It, this app is not fully compatible with all types of screens. Depending on the device in which the app is running, It might appear mail functionality or the visual elements are not correctly located.
