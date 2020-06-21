@@ -6,7 +6,7 @@ This respository contains the source code from an android app MySoc which take p
 Link to the digital piano project: https://github.com/fernandoka/Digital-Piano-VHDL-MIDI-Player
 
 
-This app is divided in three diferents windows: Connection, File transfer and Keyboard. You can acces each of this windows using the navigation menu located at the bottom of the device screen. The source code located in src/main/...
+The functionalities of this app are divided in three diferents windows: Connection, File transfer and Keyboard. You can acces each of these windows using the navigation menu located at the bottom of the device screen. The source code is located in src/main/...
 
  - **Connection**: This window allow the user to establish a bluethooth connection with the digital piano. The user can also disconnect                       from the device using this window.
 
@@ -24,3 +24,7 @@ provides both the installable apk and the Android Studio project which had been 
   <img src="https://github.com/fernandoka/MySoc-Android-app/blob/master/screenshots/FileTransfer_1.png" width="250" height="400" title="File Transfer Window">
   <img src="https://github.com/fernandoka/MySoc-Android-app/blob/master/screenshots/Keyboard_2.png" width="250" height="400" title="File Transfer Window">
 </p>
+
+## Additional Notes
+
+This app has been developed to run in a BQ Aquaris V. Because of It, this app is not fully compatible with all types of screens. It might appear mail functionality or the visual elements are not correctly located on the screen.
