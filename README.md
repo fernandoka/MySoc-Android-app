@@ -28,3 +28,7 @@ provides both the installable apk and the Android Studio project which had been 
 ## Additional Notes
 
 This app has been developed to run in a BQ Aquaris V. Because of It, this app is not fully compatible with all types of screens. Depending on the device in which the app is running, It might appear mail functionality or the visual elements are not correctly located.
+
+Releated Videos: 
+- Xilinx Open Hardware design 2020 Contest, entry video: https://youtu.be/jNLy6Ekm484
+- MIDI file Hardware Player (Project presentation): https://youtu.be/rm-5wACBFLk
